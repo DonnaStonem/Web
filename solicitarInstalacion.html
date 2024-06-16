@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav>
+        <ul class="nav">
+            <li class="nav-left"><a href="index.html">Plumber</a></li>
+            <li><a href="index.html">Notification</a></li>
+            <li><a href="servicio.html">Services</a></li>
+            <li><a href="user.html">User</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </nav>
+    <h1>Solicitar servicio</h1>
+    <h2>Instalación de calentador de agua</h2>
+
+    <section>
+        <div class="info-service">
+            <p>En Plumber, ofrecemos servicios profesionales de instalación de calentadores de agua para su hogar o negocio.
+                Nuestros técnicos certificados garantizan una instalación segura y eficiente, asegurando un rendimiento
+                óptimo y prolongando la vida útil de su equipo. Disfrute de agua caliente sin preocupaciones con nuestra
+                atención experta y personalizada.</p>
+            <ul>
+                <li>1 Kit de mangueras de agua caliente, fria y gas</li>
+                <li>1 Rollo de cinta teflón</li>
+                <li>2 Valvulas de presión inversa de 1/2 pulgada</li>
+            </ul>
+        </div>
+    
+        <div class="formularioServicio">
+            <form action="#" method="post">
+                <label for="servicio">Servicio</label>
+                <select name="servicio" id="servicio" required>
+                    <option value="mantenimiento">Mantenimiento preventivo</option>
+                    <option value="lavado">Lavado de tinaco</option>
+                    <option value="reparacion">Reparación de fuga a fuga</option>
+                    <option value="instalacion">Instalación de calentador de agua</option>
+                </select>
+    
+                <label for="nombre">Nombre Completo</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
+                <label for="calleForm">Calle</label>
+                <input type="text" id="calle" name="calle" placeholder="Calle y no. exterior" required>
+    
+                <label for="ciudadForm">Ciudad</label>
+                <input type="text" id="ciudad" name="ciudad" placeholder="Ciudad" required>
+    
+                <label for="codigoPostal">Código Postal</label>
+                <input type="number" id="codigoPostal" name="codigoPostal" placeholder="Codigo postal" required><br>
+    
+                <input class="subForm" type="submit" value="Enviar">
+    
+            </form>
+        </div>
+    
+    </section>
+    
+</body>
+
+</html>
