@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <title>PlumberS</title>
+</head>
+
+<body>
+    <header>
+        <a href="./index.php" class="logo">
+            <img src="./assets/plumber.png" alt="logo">
+            <h2 class="logo-nombre">PlumberS</h2>
+        </a>
+
+        <nav>
+            <a href="./index.php">Inicio</a>
+            <a href="./pages/notification.php">Ntification</a>
+            <a href="./pages/servicio.php">Services</a>
+            <a href="./pages/user.php">User</a>
+            <a href="./pages/register.php">Register</a>
+            <a href="./pages/login.php">Login</a>
+
+        </nav>
+    </header>
+
+    <main>
+        <section class="inicio">
+            <div class="info">
+                <h1>PlumberS</h1>
+                <p>Soluciones de plomería confiables y rápidas</p>
+
+                <div>
+                    <a class="submit" href="./pages/login.php">Login</a>
+                    <a class="submit" href="./pages/register.php">Register</a>
+                </div>
+            </div>
+
+            <div class="logoindex">
+                <img class="calentador" src="./assets/logoindex.png" alt="">
+            </div>
+        </section>
+
+        <section class="section-home">
+            <div class="cuidadoHogar">
+                <div class="tips">
+                    <p class="title">Tips en el cuidado del hogar</p>
+                    <p>Mantener tu hogar en perfecto estado es esencial para disfrutar de un ambiente cómodo y
+                        seguro. Un aspecto clave es el cuidado de la plomería, que incluye inspeccionar regularmente
+                        las tuberías para detectar fugas, evitar el vertido de residuos sólidos en los desagües y
+                        utilizar desatascadores naturales como el vinagre y el bicarbonato de sodio. Además, es
+                        recomendable programar revisiones periódicas con un profesional para garantizar el buen
+                        funcionamiento de todos los sistemas. Nuestro equipo de expertos en plomería está aquí para
+                        ayudarte a mantener tu hogar en óptimas condiciones, brindándote servicios de alta calidad y
+                        soluciones rápidas a cualquier problema.</p>
+                </div>
+
+                <div class="infoIncendio">
+                    <p class="title">Información de incendios cerca de la zona donde vive:</p>
+                    <p>Recientemente, se han reportado varios incendios significativos en diferentes zonas. En
+                        Miami, un incendio en un edificio dejó a decenas de personas sin hogar, obligándolas a
+                        refugiarse en albergues temporales. Las autoridades locales, junto con la Cruz Roja, están
+                        trabajando para proporcionar asistencia a los afectados mientras se evalúan los daños
+                        estructurales del edificio​ (Univision)​.
+
+                        Asimismo, en Nueva Jersey, un incendio en un restaurante hispano en Elizabeth resultó en
+                        varios heridos y dejó a varias familias desplazadas​ (Univision)​. Es crucial estar al tanto
+                        de estos eventos y tomar medidas preventivas en el hogar para reducir el riesgo de
+                        incendios, como revisar regularmente las instalaciones eléctricas y mantener en buen estado
+                        los sistemas de gas y calefacción.
+
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer>
+        <h2>Formulario de Quejas y Sugerencias</h2>
+        <form action="">
+
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Correo</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="type">Tipo de mensaje:</label>
+            <select name="type" id="type" required>
+                <option value="queja">Queja</option>
+                <option value="sugerencia">Sugerencia</option>
+            </select>
+
+            <label for="message">Mensaje:</label>
+            <textarea name="message" id="message" rows="5" required></textarea>
+
+            <input class="submit" type="submit" value="Enter">
+
+        </form>
+        <p>© All rights reserved</p>
+    </footer>
+
+</body>
+
+</html>
